@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    text-align: center;
+    max-width: 700px; /* Increased width */
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Improved shadow for better look */
+    background-color: #f9f7ff; /* Light purple background */
+}
+
+h1 {
+    font-size: 28px;
+    color: #5e17eb; /* Vibrant purple */
+    margin-bottom: 20px;
+}
+
+#password {
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 15px;
+    border: 1px solid #aaa;
+    border-radius: 10px; /* Rounded edges for the input */
+    width: 100%;
+    background-color: #f0e6ff; /* Light purple input background */
+    color: #4a0f8a; /* Dark purple text */
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 25px; /* Increased padding for better appearance */
+    font-size: 18px;
+    color: #fff;
+    background-color: #7d3c98; /* Deep purple */
+    border: none;
+    border-radius: 10px; /* Rounded button corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+button:hover {
+    background-color: #5e17eb; /* Brighter purple on hover */
+}
+
+.options {
+    margin-top: 20px;
+    text-align: left;
+    display: inline-block;
+    width: 100%; /* Use the full width */
+    padding: 15px;
+    background-color: #efe2ff; /* Light purple-gray background */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.options label {
+    display: block;
+    margin: 8px 0;
+    font-size: 16px;
+    color: #4a0f8a; /* Dark purple text */
+}
+
+input[type="number"] {
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    width: 80px; /* Fixed width for the number input */
+    margin-bottom: 15px;
+    background-color: #f0e6ff; /* Light purple input background */
+    color: #4a0f8a; /* Dark purple text */
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+    accent-color: #7d3c98; /* Purple checkbox highlight */
+}
