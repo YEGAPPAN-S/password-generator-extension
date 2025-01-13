@@ -26,6 +26,3 @@ A simple and secure Chrome extension to generate strong, unique passwords with c
 4. Enter custom characters (if needed).
 5. Click **Generate Password**.
 6. Copy the generated password and use it securely.
-
-## Contributing
-Contributions are welcome! Feel free to fork the repository, add features, and submit a pull request.
